@@ -1,0 +1,85 @@
+# ========================================
+# Python & FastAPI Backend
+# ========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Local configuration
+*.env
+.env.local
+config.json
+settings.json
+
+# Logs and cache
+*.log
+logs/
+*.pid
+*.seed
+*.bak
+*.swp
+.cache/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# System / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Database / Data
+*.db
+*.sqlite3
+*.sqlite
+data/
+dump.rdb
+mongo_data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# ========================================
+# Local Agent & Browser Metrics Integration
+# ========================================
+# If you have agent logs or compiled binaries
+agent_logs/
+local_agent/
+*.exe
+*.bin
+
+# ========================================
+# OS-specific
+# ========================================
+# Windows
+ehthumbs.db
+desktop.ini
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Linux
+*~

@@ -1,0 +1,23 @@
+# --- System Monitoring ---
+psutil==5.9.8
+pywin32==306
+wmi==1.5.1
+
+# --- Data Handling & Visualization ---
+pandas==2.2.2
+matplotlib==3.9.2
+
+# --- Task Scheduling ---
+schedule==1.2.0
+
+# --- GUI for Desktop Application ---
+PyQt5==5.15.10
+
+# --- AI & Cloud Integration ---
+openai==1.51.0
+requests==2.32.3
+scikit-learn==1.5.2
+
+# --- Optional Utilities (for smoother experience) ---
+tqdm==4.66.5
+python-dotenv==1.0.1
