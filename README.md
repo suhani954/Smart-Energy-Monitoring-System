@@ -1,9 +1,6 @@
 SMART ENERGY MONITORING SYSTEM
-An AI-powered Smart Energy Monitoring and Advisory Platform for real-time performance tracking and optimization.
 
-Overview
-Smart Energy Monitoring System is a full-stack energy monitoring and analytics system that collects real-time system metrics and power usage data through an intelligent local agent 
-and Browser Metrics. It visualizes energy consumption patterns, predicts inefficiencies, and provides actionable insights to improve energy efficiency and resource utilization.
+Overview: Smart Energy Monitoring System is a full-stack energy monitoring and analytics system that collects real-time system metrics and power usage data through an intelligent local agent and Browser Metrics. It visualizes energy consumption patterns, predicts inefficiencies, and provides actionable insights to improve energy efficiency and resource utilization.
 
 Key Features
 1. Real-Time Monitoring: Tracks CPU, memory, power usage, and running processes in real time
@@ -15,11 +12,9 @@ Key Features
 7. Robust API Design: Secure REST API endpoints with FastAPI for high-speed data handling.
 
 Tech Stack
-Frontend: React.js, Chart.js, Axios, Framer Motion
-Backend: FastAPI, Python, Uvicorn
-Database: MongoDB
-Agent: Python (psutil, requests)
+1. Frontend: React.js, Chart.js, Axios, Framer Motion
+2. Backend: FastAPI, Python, Uvicorn
+3. Database: MongoDB
+4. Agent: Python (psutil, requests)
 
-Developer
-Suhani Singh
-Software Developer | IoT & AI Enthusiast
+Developer: Suhani Singh - Software Developer | IoT & AI Enthusiast
