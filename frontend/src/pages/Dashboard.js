@@ -797,7 +797,7 @@ export default function Dashboard() {
                   <DetailCard icon="📊" title="Disk I/O Stats" value={metrics.disk_io ? Object.entries(metrics.disk_io).map(([disk, io]) => `${disk}: R ${io.read_mb} MB / W ${io.write_mb} MB`).join(" | ") : "Not Available"} />
                 </div>
 
-                <div className="bg-white p-5 rounded-xl shadow border border-gray-300 mt-10">
+                <div className="bg-white p-5 rounded-xl shadow border border-gray-300 mt-10 mb-20">
                   <SystemUsageChart
                     cpu={metrics.cpu_usage || 0}
                     memory={metrics.memory?.percent || 0}
@@ -806,6 +806,12 @@ export default function Dashboard() {
                 </div>
               </>
             )}
+
+
+            {/* Footer */}
+            <footer className="border-t border-purple-200 pt-8 text-center text-sm text-purple-400">
+              © 2025 Smart Energy Monitoring System. Built by Suhani.
+            </footer>
           </div>
         </main>
       </div>

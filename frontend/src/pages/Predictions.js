@@ -1052,12 +1052,18 @@ return (
               </div>
             </div>
 
-            <div className="mt-8 flex justify-center">
+            <div className="mt-8 flex justify-center mb-20">
               <button onClick={downloadPDF}
                 className="bg-purple-700 text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:scale-105 transition-transform duration-200">
                 Export Full Report (PDF)
               </button>
             </div>
+
+
+            {/* Footer */}
+            <footer className="border-t border-purple-200 pt-8 text-center text-sm text-purple-400">
+              © 2025 Smart Energy Monitoring System. Built by Suhani.
+            </footer>
           </div>
         </main>
       </div>

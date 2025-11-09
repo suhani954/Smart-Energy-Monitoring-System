@@ -899,7 +899,7 @@ useEffect(() => {
                 </div>
 
                 {/* Chart */}
-                <div className="bg-purple-50 p-5 rounded-xl shadow-lg border border-purple-200">
+                <div className="bg-purple-50 p-5 rounded-xl shadow-lg border border-purple-200 mb-20">
                   <div className="bg-white rounded-2xl shadow-md p-6">
                     <Bar data={chartData} options={chartOptions} />
                   </div>
@@ -908,11 +908,17 @@ useEffect(() => {
             ) : (
               !loading &&
               agentConnected && (
-                <p className="text-center text-purple-700 mt-10">
+                <p className="text-center text-purple-700 mt-10 mb-20">
                   No logged process data available. Please log data first.
                 </p>
               )
             )}
+
+
+            {/* Footer */}
+            <footer className="border-t border-purple-200 pt-8 text-center text-sm text-purple-400">
+              © 2025 Smart Energy Monitoring System. Built by Suhani.
+            </footer>
           </div>
         </main>
       </div>
